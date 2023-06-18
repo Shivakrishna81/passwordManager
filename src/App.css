@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  padding: 20px;
+}
+.logo {
+  width: 180px;
+  height: 55px;
+}
+.bg2 {
+  background-color: #5763a5;
+  border-radius: 4px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100%;
+  margin-top: 10px;
+}
+.password {
+  height: 350px;
+  width: 350px;
+}
+.bg2-1 {
+  background-color: #454f84;
+  border-radius: 4px;
+  padding: 16px;
+}
+.input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+  min-width: 260px;
+}
+.head {
+  font-size: 18px;
+  color: #ffffff;
+}
+button {
+  border-radius: 10px;
+  border-width: 0px;
+  color: #ffffff;
+  padding: 8px;
+  background-color: #0b69ff;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+}
+.bg3 {
+  background-color: #5763a5;
+  border-radius: 4px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 360px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+.yp {
+  display: flex;
+}
+.ypt {
+  font-size: 17px;
+  color: #ffffff;
+  margin-right: 8px;
+}
+.bg3-t {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+hr {
+  width: 100%;
+  height: 1px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.input_holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.web-img {
+  height: 40px;
+  width: 40px;
+}
+.list_item {
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: #b6c3ca;
+  display: flex;
+  padding: 8px;
+}
+.round {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  color: #ffffff;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
